@@ -5,7 +5,7 @@ web:
         - "9001:9001"
     volumes:
         - .:/var/www
-        - ./config/docker/web/vhost.conf:/etc/nginx/sites-enabled/default
+        - ./config/docker/web/default.conf:/etc/nginx/conf.d/default.conf
     links:
         - php
 php:
