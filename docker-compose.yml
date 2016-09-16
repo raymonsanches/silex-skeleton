@@ -1,0 +1,14 @@
+web:
+    image: nginx:stable
+    ports:
+        - "80:80"
+        - "9001:9001"
+    volumes:
+        - .:/var/www
+        - ./config/docker/web/vhost.conf:/etc/nginx/sites-enabled/default
+    links:
+        - php
+php:
+    image: php7-dne
+    volumes:
+        - .:/var/www
