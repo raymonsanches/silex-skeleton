@@ -1,15 +1,14 @@
 {
-    "name": "devnaestrada/endor",
+    "name": "raymonsanches/silex-skeleton",
     "type": "api",
-    "description": "DNE Endor Project",
-    "homepage": "http://gitlab.arizona.com.br/retail-pip/carrefour-web-view",
+    "description": "Silex Skeleton",
     "require": {
         "php" : ">=7.0",
-        "silex/silex": "~2.0",
+        "silex/silex": "~2.0"
     },
     "autoload": {
         "psr-4": {
-            "DevNaEstrada": "src/",
+            "Dne\\": "src/"
         }
     }
 }
