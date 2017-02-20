@@ -1,20 +1,16 @@
-# Why Endor?
+## Running Project
 
-Just http://www.starwars.com/databank/endor
+### Docker configuration
 
-# Running Project
-
-## Docker configuration
-
-### Build image based on Dockerfile
+#### Build image based on Dockerfile
 
 `docker build -t skeleton .`
 
-### Up containers with docker compose
+#### Up containers with docker compose
 
 `docker-compose up -d`
 
-### Add dne.endor to your hosts file
+#### Add dne.endor to your hosts file
 
 Edit your hosts file, normally in /etc/hosts on *nix systems to add these line
 
