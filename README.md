@@ -8,7 +8,7 @@ Just http://www.starwars.com/databank/endor
 
 ### Build image based on Dockerfile
 
-`docker build -t php7-dne .`
+`docker build -t skeleton .`
 
 ### Up containers with docker compose
 
@@ -18,6 +18,6 @@ Just http://www.starwars.com/databank/endor
 
 Edit your hosts file, normally in /etc/hosts on *nix systems to add these line
 
-`127.0.0.1		dne.endor`
+`127.0.0.1		dev.skeleton`
 
 All done!

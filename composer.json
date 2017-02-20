@@ -1,14 +1,16 @@
 {
     "name": "raymonsanches/silex-skeleton",
-    "type": "api",
+    "type": "bootstrap silex application",
     "description": "Silex Skeleton",
     "require": {
         "php" : ">=7.0",
-        "silex/silex": "~2.0"
+        "silex/silex": "~2.0",
+        "twig/twig": "^2.1",
+        "doctrine/dbal": "v2.5.4"
     },
     "autoload": {
         "psr-4": {
-            "Dne\\": "src/"
+            "Arizona\\": "src/"
         }
     }
 }

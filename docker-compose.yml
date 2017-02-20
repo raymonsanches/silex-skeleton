@@ -9,6 +9,6 @@ web:
     links:
         - php
 php:
-    image: php7-dne
+    image: skeleton
     volumes:
         - .:/var/www

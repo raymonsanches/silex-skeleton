@@ -32,11 +32,11 @@ vendor/
 /vendor/
 
 # Assets and user uploads
-/web/bundles/
-/web/uploads/
+/public/bundles/
+/public/uploads/
 
 # Assets managed by Bower
-/web/assets/vendor/
+/public/assets/vendor/
 
 # PHPUnit
 /app/phpunit.xml
